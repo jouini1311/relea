@@ -26,8 +26,8 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:http://github.com:jouini1311/relea.git</connection>
-        <developerConnection>scm:git:http://github.com:jouini1311/relea.git</developerConnection>
+        <connection>scm:git:ssh://github.com:jouini1311/relea.git</connection>
+        <developerConnection>scm:git:ssh://github.com:jouini1311/relea.git</developerConnection>
       <tag>untitled-1.0</tag>
   </scm>
 </project>
