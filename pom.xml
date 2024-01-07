@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>untitled</artifactId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.6</version>
 
 
     <properties>
@@ -40,6 +40,6 @@
     <scm>
         <connection>scm:git:https://github.com/jouini1311/relea.git</connection>
         <developerConnection>scm:git:https://github.com/jouini1311/relea.git</developerConnection>
-    <tag>1.5</tag>
+    <tag>1.6</tag>
   </scm>
 </project>
