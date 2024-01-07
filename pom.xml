@@ -4,7 +4,8 @@
 
     <groupId>org.example</groupId>
     <artifactId>untitled</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
+
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -36,29 +37,9 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.baeldung</groupId>
-                <artifactId>counter-maven-plugin</artifactId>
-                <version>1.4.6</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>dependency-counter</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <scope>test</scope>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
     <scm>
         <connection>scm:git:https://github.com/jouini1311/relea.git</connection>
         <developerConnection>scm:git:https://github.com/jouini1311/relea.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.5</tag>
   </scm>
 </project>
